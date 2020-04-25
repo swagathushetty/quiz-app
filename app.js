@@ -1,8 +1,12 @@
+//refer docs 1.2
 const correctAnswers=['B','B','B','B']
 
+//refer docs 1.2
 const form=document.querySelector('.quiz-form')
 const resultDiv=document.querySelector('.result')
 
+
+//refer docs 1.3
 form.addEventListener('submit',e=>{
     e.preventDefault()
 
